@@ -6,4 +6,4 @@
 
 3rd commit - PS - Removed files that got commit by Kush and combined the 2 index.html files which were created
 
-?? comit - hari - template add kar diya h sirf header and footer ko leke. all changes made in header and footer in index should be made for template using file aswell.
+4th?? comit - hari - template add kar diya h sirf header and footer ko leke. all changes made in header and footer in index should be made for template using file aswell.
