@@ -242,7 +242,7 @@ a {
 }
 
 .slider .button1 {
-    margin: 30px 0 0 0;
+    margin: 0px 0 0 0;
 }
 
 @keyframes popups {
@@ -4231,7 +4231,7 @@ section.section {
 }
 
 .his-contant .button1 {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .med-coverage {
