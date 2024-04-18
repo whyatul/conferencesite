@@ -639,6 +639,16 @@ a {
     position: relative;
 }
 
+
+div.con1{
+    text-align:center;
+}
+
+ul.pad{
+    display: inline-block;
+    text-align: left;
+}
+
 .about-hospital ul li .image {
     background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
     position: relative;
@@ -4592,5 +4602,110 @@ section.section {
     }
 }
 
+
+/*--------------------------------------------------------------
+# Speakers Section
+--------------------------------------------------------------*/
+
+#speakers {
+    padding: 60px 0 30px 0;
+}
+
+#speakers .speaker {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#speakers .speaker .details {
+    background: rgba(6, 12, 34, 0.76);
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#speakers .speaker .details h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#speakers .speaker .details p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#speakers .speaker .details .social {
+    height: 40px;
+}
+
+#speakers .speaker .details .social i {
+    line-height: 0;
+    margin: 0 2px;
+}
+
+#speakers .speaker .details a {
+    color: #fff;
+}
+
+#speakers .speaker .details a:hover {
+    color: #f82249;
+}
+
+#speakers .speaker:hover .details {
+    bottom: 0;
+}
+
+#speakers-details {
+    padding: 60px 0;
+}
+
+#speakers-details .details h2 {
+    color: #112363;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#speakers-details .details .social {
+    margin-bottom: 15px;
+}
+
+#speakers-details .details .social a {
+    background: #e9edfb;
+    color: #112363;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#speakers-details .details .social a:hover {
+    background: #f82249;
+    color: #fff;
+}
+
+#speakers-details .details .social a i {
+    font-size: 16px;
+    line-height: 0;
+}
+
+#speakers-details .details p {
+    color: #112363;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 
 
