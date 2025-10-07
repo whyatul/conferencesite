@@ -2,276 +2,490 @@
 <html lang="en">
 
 <head>
-    <title>ICAITE 2024 Conference At UIT</title>
+    <title>ICAITE 2025 - International Conference on AI in Today's Era</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="selection">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="International Conference on Artificial Intelligence in Today's Era - October 15-17, 2025 at United Institute of Technology">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Modern CSS Framework -->
     <link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet" />
     <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
-
+    <link href="assets/css/modern.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/floating-nav.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/hero-new.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/modern-cards.css" type="text/css" rel="stylesheet" />
     
-
-   
-</script>
-    <script src="https://use.fontawesome.com/267f3d102f.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body >
     
 
-    <section class="header">
-        <div class="headerlogo">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="logo">
-                        <a href="https://www.united.ac.in/"><img src="assets/images/logo22.png"></a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                   
-                </div>
-
-                <div class="col-md-5">
-                    <div class="logo3">
-                        <a href="https://www.elsevier.com/en-in"><img src="assets/images/ellogo.png"></a>
-                    </div>
-                </div>
-
-
+    <!-- Floating Island Navigation -->
+    <nav class="floating-nav" id="floatingNav">
+        <div class="nav-container">
+            <!-- Logo Section -->
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <img src="assets/images/logo22.png" alt="UIT Logo" class="nav-logo">
+                
+                </a>
             </div>
+
+            <!-- Navigation Menu -->
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            <i class="fas fa-users"></i>
+                            <span>Authors</span>
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#date">Important Dates</a>
+                            <a href="#track">Technical Tracks</a>
+                            <a href="#Call">Call for Papers</a>
+                            <a href="#paper">Paper Submission</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Committee</span>
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="commitee.html#1">Patrons & Chairs</a>
+                            <a href="commitee.html#2">Advisory Committee</a>
+                            <a href="commitee.html#3">Technical Committee</a>
+                            <a href="commitee.html#4">Organising Committee</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            <i class="fas fa-microphone"></i>
+                            <span>Speakers</span>
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="speaker.html">Keynote Speakers</a>
+                            <a href="speaker.html">Tutorial Speakers</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="schedule.html" class="nav-link">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Schedule</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#maploc" class="nav-link">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Venue</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav-item sponsor-logo-item">
+                        <img src="assets/images/ellogo.png" alt="Elsevier" class="nav-sponsor-logo">
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CTA Button
+            <div class="nav-actions">
+                <a href="#paper" class="cta-button">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register Now</span>
+                </a>
+            </div> -->
+
+            <!-- Mobile Toggle -->
+            <button class="mobile-toggle" id="mobileToggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
         </div>
-
-        <div class="nav">
-            <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="active"><a href="index.html#">Home</a></li>
-                        <li><a href="javascript:void();">For Authors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-
-                            <ul class="dropdowns hide">
-                                <li><a href="#date">Important dates </a></li>
-                                <li><a href="#track">Technical tracks</a></li>
-                                <li><a href="#Call">Call for papers</a></li>
-                                <li><a href="#Call">Paper submission</a></li>
-                            </ul>
-
-                            
-                        </li>
-                        <li><a href="javascript:void();">Committee <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-                            <ul class="dropdowns hide">
-                                <li><a href="commitee.html#1">Patrons and Chairs</a></li>
-                                <li><a href="commitee.html#2">Advisory Committee</a></li>
-                                <li><a href="commitee.html#3">Technical Program Committee</a></li>
-                                <li><a href="commitee.html#4">Organising Committee</a></li>
-                                <li><a href="commitee.html#5">Student Volunteer</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="javascript:void();">Speaker <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-                            <ul class="dropdowns hide">
-                                <li><a href="speaker.html">keynote Speakers</a></li>
-                                <li><a href="speaker.html">Tutorial Speakers</a></li>
-
-                            </ul>
-                        </li>   
-
-
-
-                        <li><a href="#paper">Paper Submission</a></li>
-                        <li><a href="#">Registration</a></li>
-
-                        <li><a href="#maploc">Venue </a></li>
-                        <li><a href="schedule.html">Schedule</a></li>
-
-                        <li><a href="#Contact"> Contact Us</a></li>
-
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </section>
+    </nav>
 
     
-    <section class="slider">
-        <img class="slider-img1" src="assets/images/copy2.png">
-        <div class="slide-in">
-            <div class="container">
-                <div class="row"> 
+    <!-- Redesigned Modern Hero Section -->
+    <section class="hero-section-new">
+        <!-- SVG Gradient Definition for Countdown Rings -->
+        <svg width="0" height="0" style="position: absolute;">
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#2563eb;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
 
-                    <div class="col-md-5">
-                        <div class="text " style="text-align:left;">
-                            <h1>International Conference On<br>Artificial Intelligence <br>in Today’s Era<br>ICAITE Hybrid-Mode</h1>
-                            <strong>8<sup>th</sup> - 10<sup>th</sup> September 2024</strong>
-                            <div class="sponcer1">
-                                <p><span>Organised by:</span> Department of Computer Science and<br /> Engineering, Unted Insitute of Technology,<br> Naini Prayagraj  211008</p>
+        <!-- Animated Geometric Background -->
+        <div class="hero-bg-wrapper">
+            <div class="animated-gradient"></div>
+            <div class="geometric-pattern">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+                <div class="hexagon hex-1"></div>
+                <div class="hexagon hex-2"></div>
+                <div class="hexagon hex-3"></div>
+            </div>
+            <div class="particle-container" id="particles"></div>
+        </div>
 
+        <div class="container hero-container">
+            <!-- Top Badge Bar -->
+            <div class="hero-badges" data-aos="fade-down" data-aos-delay="100">
+                <div class="badge-pill badge-live">
+                    <span class="pulse-dot"></span>
+                    <span>Conference 2025</span>
+                </div>
+                <div class="badge-pill badge-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Prayagraj, India</span>
+                </div>
+                <div class="badge-pill badge-hybrid">
+                    <i class="fas fa-video"></i>
+                    <span>Hybrid Event</span>
+                </div>
+            </div>
 
-                            </div>
+            <!-- Main Hero Content -->
+            <div class="hero-main-content">
+                <!-- Conference Title -->
+                <div class="hero-header" data-aos="fade-up" data-aos-delay="200">
+                    <div class="conference-year">2025</div>
+                    <h1 class="hero-main-title">
+                        International Conference on
+                        <span class="highlight-text">Artificial Intelligence</span>
+                        in Today's Era
+                    </h1>
+                    <div class="hero-acronym">ICAITE 2025</div>
+                </div>
 
-                            <a target="_BLANK" href="#" class="button1">Paper Submission</a>
+                <!-- Conference Date & Venue -->
+                <div class="hero-info-bar" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div class="info-text">
+                            <span class="info-label">Date</span>
+                            <span class="info-value">October 15-17, 2025</span>
                         </div>
                     </div>
-                    <div class="col-md-5">
-
+                    <div class="info-divider"></div>
+                    <div class="info-item">
+                        <i class="fas fa-building"></i>
+                        <div class="info-text">
+                            <span class="info-label">Venue</span>
+                            <span class="info-value">United Institute of Technology</span>
+                        </div>
                     </div>
+                    <div class="info-divider"></div>
+                    <div class="info-item">
+                        <i class="fas fa-award"></i>
+                        <div class="info-text">
+                            <span class="info-label">Publisher</span>
+                            <span class="info-value">Elsevier Indexed</span>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- CTA Buttons -->
+                <div class="hero-cta-group" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#paper" class="cta-primary">
+                        <span class="cta-text">Submit Your Paper</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Countdown Timer - Ultra Minimal -->
+                <div class="hero-countdown-enhanced" data-aos="fade-up" data-aos-delay="500">
+                    <div class="countdown-minimal">
+                        <div class="countdown-title-minimal">Conference Starts In</div>
+                        <div class="countdown-numbers">
+                            <div class="number-unit">
+                                <div class="number-value" id="days-hero">00</div>
+                                <div class="number-label">Days</div>
+                            </div>
+                            <div class="number-divider">:</div>
+                            <div class="number-unit">
+                                <div class="number-value" id="hours-hero">00</div>
+                                <div class="number-label">Hours</div>
+                            </div>
+                            <div class="number-divider">:</div>
+                            <div class="number-unit">
+                                <div class="number-value" id="minutes-hero">00</div>
+                                <div class="number-label">Mins</div>
+                            </div>
+                            <div class="number-divider">:</div>
+                            <div class="number-unit">
+                                <div class="number-value" id="seconds-hero">00</div>
+                                <div class="number-label">Secs</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- Stats Section -->
+    <section class="stats-countdown-section">
+        <div class="container">
+            <!-- Quick Stats -->
+            <div class="hero-stats-ribbon" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-box">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Expert Speakers</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="200">0</div>
+                    <div class="stat-label">Expected Participants</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-label">Technical Sessions</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Conference Days</div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
 
 
-    <section class="about-sec" id="About">
+    <!-- About Conference Section -->
+    <section class="about-section py-5" id="About">
         <div class="container">
             <div class="row">
-
-                <div class="col-md-8">
-
-                    <h2>About the Conference </h2>
-                    <p>ICAITE is organized by Department of Computer Science and Engineering, United Institute of Technology,Prayagraj,U.P,India . The conference is technically sponsored by ELSEVIER
-                        . Uttar Pradesh Section is located in Region 10 and is represented at the India Council. ELSEVIER interfaces with industries and academia through various technical and humanitarian activities.
-                        Conference Proceedings will be abstracted and indexed <br /><br /> The conference will provide an opportunity to the practicing engineers, academicians, and researchers to meet in a forum to discuss various issues
-                        and its future direction of various Emerging Technologies of allied areas of Industry applications with the following outcome:</p>
-                    <ul>
-                        <li> To strengthen the industry-Academia bond and enhance collaborative and meaningful research on issues of current relevance.</li>
-                        <li> Expose the participating delegates to the emerging technologies through presentations.
-                        </li>
-                        <li> To organize expert’s talk by domain experts of global eminence.</li>
-                        <li> To recognize the eminent global achievers for their remarkable achievement and contributions in their respective domains.</li>
-                    </ul><br />
-                    <p>
-                        The conference will cover a wide range of topics related to electrical, electronics, and computing technologies, including but not limited to:
-                    </p>
-                    <h2 id="track"> Computing Technologies</h2>
-                    <ul class="li-2">
-                        <li> Artificial intelligence</li>
-                        <li> Deep learning</li>
-                        <li> Machine learning and prompt engineering</li>
-                        <li> Cyber Physical system</li>
-                        <li> Software Engineering and Agile Development</li>
-                        <li> Multimedia and Web Services Agents</li>
-                        <li> Cloud Computing</li>
-                        <li> Big Data and quantum computing</li>
-                        <li> Ubiquitous Computing</li>
-                        <li> Global Software Engineering</li>
-                        <li> Internet of Things</li>
-                        <li> Knowledge-based Systems</li>
-                        <li> Pervasive Computing and Ambient Intelligence</li>
-                        <li> Bioinformatics</li>
-                        <li> Heuristic and AI Planning Strategies and Tools</li>
-                        <li> Computational Theories of Learning</li>
-                        <li> Recent Trends and Developments</li>
-
-                    </ul>
-                    <h2 id="Call"> Call For Papers</h2>
-                    <ul>
-                        <li>The original and unpublished research paper/articles are invited on the themes/ subthemes of the conference from research scholar and participants. Paper should be sent as per the instruction on the email id mentioned in the contact us</li>
-                       
-                        <li>The themes list is not fully exhaustive; the participants may choose any of the topics relevant to the theme of the conference.
-                        </li>
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="section-header text-center mb-5">
+                        <h2 class="section-title">About the Conference</h2>
+                        <p class="section-subtitle">Exploring the future of Artificial Intelligence</p>
+                    </div>
+                    
+                    <div class="about-content">
+                        <p class="lead mb-4">
+                            ICAITE is organized by the Department of Computer Science and Engineering, United Institute of Technology, Prayagraj, U.P., India. The conference is technically sponsored by ELSEVIER and will provide an opportunity for practicing engineers, academicians, and researchers to discuss emerging technologies and their future directions.
+                        </p>
                         
-                        <li>Extended versions of the accepted and presented paper will be submitted for possible publication in UGC care listed journal.
-                        </li>
-                    </ul>
-                    <br>
-                    
-                    
-                   
-                    <h2 id="paper">Paper Submission </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br> 
-                        Libero saepe expedita, culpa ipsum voluptate explicabo dignissimos et <br> 
-                        labore placeat veritatis ad officia, reprehenderit omnis impedit fugiat? <br>    
-                        Reiciendis minus quae odit. <br>
-                    </p>
-  
-
-                </div>
-
-                <div class="col-md-4">
-                    <div class="image-sec">
-                        <h3>CONFERENCE BEGINS IN</h3>
-                        <div id="demo">
-
-                            <div id="countdown">
-                                <ul>
-                                    <li><span id="days"></span>days</li>
-                                    <li><span id="hours"></span>Hours</li>
-                                    <li><span id="minutes"></span>Minutes</li>
-                                    <li><span id="seconds"></span>Seconds</li>
-                                </ul>
+                        <div class="objectives mb-5">
+                            <h4 class="mb-3">Conference Objectives</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="objective-item">
+                                        <i class="fas fa-handshake text-primary"></i>
+                                        <div>
+                                            <h6>Industry-Academia Collaboration</h6>
+                                            <p>Strengthen bonds between industry and academia for meaningful research</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="objective-item">
+                                        <i class="fas fa-lightbulb text-primary"></i>
+                                        <div>
+                                            <h6>Emerging Technologies</h6>
+                                            <p>Expose delegates to cutting-edge technologies through presentations</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="objective-item">
+                                        <i class="fas fa-microphone text-primary"></i>
+                                        <div>
+                                            <h6>Expert Talks</h6>
+                                            <p>Organize expert talks by domain specialists of global eminence</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="objective-item">
+                                        <i class="fas fa-trophy text-primary"></i>
+                                        <div>
+                                            <h6>Recognition</h6>
+                                            <p>Recognize eminent global achievers for their contributions</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
                     </div>
-
-                    <div class="image-sec" id="date">
-                        <h3>Publishing & Indexing</h3>
-
-                        <p>Accepted papers will be submitted for inclusion into ELSEVIER's scope and quality requirements.</p>
-                        <br />
-
-
-                        <img src="assets/images/ellogo.png" style="width:70%; display:block; margin:0px auto;">
-
-                        <br /> 
-
-                        <br /><br />
-                        <h3 >Important Dates</h3>
-
-                        <p style="  line-height:30px;" >
-                            Abstract Submission Deadline: <strong><!--<s style="color:#ff0000;">15th March, 2024<br></s>--> 15<sup>th</sup> July, 2024</strong><br /> Notification of Acceptance: <strong><!--<s style="color:#ff0000;">15th April, 2024<br></s>--> 30<sup>th</sup> July, 2024</strong><br/>
-                            Full Paper Submission Deadline: <strong>15<sup>th</sup> Aug, 2024</strong><br/>
-                             <b>Registration Deadline:</b> <br>Presenters: <strong>15<sup>th</sup> Aug, 2024</strong><br />Non-Presenters: <strong>20<sup>th</sup> Aug, 2024</strong><br />
-                             <!-- Registration/ Camera Ready Deadline: <br><strong>30<sup>th</sup> June, 2024</strong><br /> -->
-                            <!-- Conference Dates: <strong>29<sup>th</sup> - 31<sup>st</sup> August 2024</strong> --></p>
-                        <br />
-
-                        <h3>Registration Fees</h3>
-                        <p style="  line-height:30px;">
-                            Presenters / Non- Presenters <br>
-                            For Indian Nationals: <strong>Rs. 6000/Rs. 4000</strong>
-                            <br /> For Foreign Nationals: <strong>$ 100/ $ 80</strong>
-                        </p>
-                            <br/>
-                        
-                       
-
-
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-left">
+                  
+                    
+                    <!-- Important Dates - Minimal Redesign -->
+                    <div class="minimal-dates-card mb-4" id="date">
+                        <div class="minimal-card">
+                            <div class="minimal-card-header">
+                                <i class="fas fa-calendar-check"></i>
+                                <h6>Important Dates</h6>
+                            </div>
+                            <div class="minimal-card-body">
+                                <div class="date-row">
+                                    <span class="date-label">Abstract Submission</span>
+                                    <span class="date-value">15 Jul, 2024</span>
+                                </div>
+                                <div class="date-row">
+                                    <span class="date-label">Notification</span>
+                                    <span class="date-value">30 Jul, 2024</span>
+                                </div>
+                                <div class="date-row">
+                                    <span class="date-label">Full Paper</span>
+                                    <span class="date-value">15 Aug, 2024</span>
+                                </div>
+                                <div class="date-row">
+                                    <span class="date-label">Registration</span>
+                                    <span class="date-value">20 Aug, 2024</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="image-sec">
-                        <h3 id="Auth">Author Guidelines</h3>
-                        <p>At least one author of an accepted paper must register and present his / her paper in conference. Prospective authors are invited to submit paper(s) with in 6 pages written in A4 size covered under normal registration.<br> Extra page charges apply beyond 6 pages.</p>
-                        <ul>
-                            <ul>
-                                <li style="color:#0000ff"><a href="http://13.126.253.70/iceect2024/assets/files/iceect2024-conference-template-a4.pdf" target="_blank">Download Call For Papers in PDF</a> </li>
-                                <li style="color:#0000ff"><a href="http://13.126.253.70/iceect2024/assets/files/iceect2024-Conference-template-a4.docx" target="_blank">Download Paper Template (Microsoft Word) </a></li>
-                                <li style="color:#0000ff"><a href="http://13.126.253.70/iceect2024/assets/files/IEEEtran_HOWTO.pdf" target="_blank">Download Paper Template Instructions(LaTeX) </a></li>
-                                <li style="color:#0000ff"><a href="http://13.126.253.70/iceect2024/assets/files/conference-latex-template_10-17-19.zip" target="_blank">Download LaTeX Template (ZIP, 700 KB) </a></li>
-                                <li style="color:#0000ff"><a href="http://13.126.253.70/iceect2024/assets/files/IEEEtranBST2.zip" target="_blank">Download LaTeX Bibliography Files (ZIP, 309 KB)</a></li>
-                                </ul>
-                            
-    
-                        </ul>
+                    
+                    <!-- Registration Fees - Minimal Redesign -->
+                    <div class="minimal-fees-card">
+                        <div class="minimal-card">
+                            <div class="minimal-card-header">
+                                <i class="fas fa-tag"></i>
+                                <h6>Registration Fees</h6>
+                            </div>
+                            <div class="minimal-card-body">
+                                <div class="fee-section">
+                                    <div class="fee-title">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Indian Nationals</span>
+                                    </div>
+                                    <div class="fee-row">
+                                        <span>Presenters</span>
+                                        <strong>₹6,000</strong>
+                                    </div>
+                                    <div class="fee-row">
+                                        <span>Non-Presenters</span>
+                                        <strong>₹4,000</strong>
+                                    </div>
+                                </div>
+                                <div class="fee-section">
+                                    <div class="fee-title">
+                                        <i class="fas fa-globe"></i>
+                                        <span>Foreign Nationals</span>
+                                    </div>
+                                    <div class="fee-row">
+                                        <span>Presenters</span>
+                                        <strong>$100</strong>
+                                    </div>
+                                    <div class="fee-row">
+                                        <span>Non-Presenters</span>
+                                        <strong>$80</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technical Tracks Section -->
+    <section class="tracks-section py-5 bg-light" id="track">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Technical Tracks</h2>
+                <p class="section-subtitle">Explore cutting-edge topics in AI and computing</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h5>Artificial Intelligence</h5>
+                        <p>Machine learning, deep learning, and AI applications</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h5>Cloud Computing</h5>
+                        <p>Distributed systems and cloud architectures</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h5>Big Data Analytics</h5>
+                        <p>Data mining, analytics, and visualization</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h5>Internet of Things</h5>
+                        <p>IoT systems, sensors, and smart devices</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5>Cybersecurity</h5>
+                        <p>Security protocols and threat detection</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="track-card">
+                        <div class="track-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h5>Software Engineering</h5>
+                        <p>Agile development and software architecture</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
    
 
-    <section class="about-sec" id="About" style="border-top:`px solid #dadada; background:#fafafa;">
+    <section class="about-sec" id="About" style="border-top: 1px solid #dadada; background: #fafafa;">
         <div class="container">
 
             <div class="row">
@@ -328,100 +542,89 @@
 
 
 
-    <section class="map-section" id="maploc">
+    <!-- Modern Venue Section -->
+    <section class="modern-venue-section py-5" id="maploc">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>United Institute Of Technology </h4>
-                    
-                    <div class="clearfix"></div>
-
-                </div>
-
-                <div class="row gx-5 col-md-4" >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.8345187877235!2d81.8959743753866!3d25.343333377617178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb316ad307d9%3A0x1d46d58ff5ae5116!2sUIT%20-%20Top%20Engineering%20College%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1712682610841!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                </div>
-                <div class="col-md-8" >
-                    <table class="table-12">
-
-                        <tbody>
-                            <tr>
-
-                                <td>Nearest Railway Station </td>
-                                <td>Chewki Railway Station</td>
-                                <td>5 km</td>
-                            </tr>
-                            <tr>
-                                <td>Nearest Railway Station </td>
-                                <td>Prayagraj Junction</td>
-                                <td>20.2 km</td>
-                            </tr>
-                            <tr>
-                                <td>Nearest Railway Station </td>
-                                <td>Daraganj Railway Station</td>
-                                <td>15.0 km</td>
-                            </tr>
-                            <tr>
-                                <td>Nearest Domestic Airport</td>
-                                <td>Prayagraj Airport(IXD)</td>
-                                <td>30.9 km</td>
-                            </tr>
-                            
-                            
-                            
-                            <tr>
-                                <td>Nearest Bus Stand (Civil Lines Bus Station)</td>
-                                <td>Inter State Bus Terminus (ISBT)- Prayayaraj</td>
-                                <td>18.7 km</td>
-                            </tr>
-                            
-                            
-                        </tbody>
-                    </table>
-                </div>
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Conference Venue</h2>
+                <p class="section-subtitle">United Institute of Technology, Prayagraj</p>
             </div>
 
-            
-        </div>
-    </section>
-
-
-
-   
-
-    <section class="request-call hed" id="Contact">
-        <div class="container">
-            <div class="row">
-                <h2>Contact Us</h2>
-                <div class="col-md-12">
-                    <ul class="nav nav-tabs navlisting med-coverage" id="myTab" role="tablist">
-                        <li class="nav-item online" role="presentation">
-                            <button class="nav-link" id="Electronic-tab" data-bs-toggle="tab" data-bs-target="#Electronic" type="button" role="tab" aria-controls="Electronic" aria-selected="false">For Queries  </button>
-                        </li>
-                    </ul>
+            <div class="row g-4">
+                <!-- Map Card -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="venue-map-card">
+                        <div class="map-wrapper">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.8345187877235!2d81.8959743753866!3d25.343333377617178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb316ad307d9%3A0x1d46d58ff5ae5116!2sUIT%20-%20Top%20Engineering%20College%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1712682610841!5m2!1sen!2sin" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="map-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h6>United Institute of Technology</h6>
+                                <p>Naini, Prayagraj 211008, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="tab-content" id="myTabContent">  
-                        <div class="tab-pane fade show active" id="Electronic" role="tabpanel" aria-labelledby="Electronic-tab">
-                            <div class="privacy-policys p-0">
-                                <div class="heading-2line-left">
 
-                                    <div class="row">
-                                        <div class="col-md-12 ">
-                                            <div class="Specialities-sec media-co">
-                                                <div class="contant-top">
-                                                    <small>FOR QUERIES</small>
-                                                    <ul>
-                                                        <li><b>Dr. Anubhav Kumar Prasad</b><br/><span><b>Mobile: </b>+91 81819 34608</span></li>
-                                                        <li><b>Dr. Amit Kumar Tiwari</b><br/><span><b>Mobile: </b>+91 93699 20134</span> </li>
-                                                        <li><b>Mr. Praful Pandey</b><br/><span><b>Mobile: </b>+91 94511 81487</span> </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                <!-- Transportation Info -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="venue-transport-card">
+                        <h5 class="transport-title">
+                            <i class="fas fa-route"></i>
+                            How to Reach
+                        </h5>
+                        
+                        <div class="transport-list">
+                            <div class="transport-item">
+                                <div class="transport-icon">
+                                    <i class="fas fa-train"></i>
+                                </div>
+                                <div class="transport-info">
+                                    <h6>Railway Stations</h6>
+                                    <div class="transport-detail">
+                                        <span class="place-name">Chewki Railway Station</span>
+                                        <span class="distance">5 km</span>
+                                    </div>
+                                    <div class="transport-detail">
+                                        <span class="place-name">Prayagraj Junction</span>
+                                        <span class="distance">20.2 km</span>
+                                    </div>
+                                    <div class="transport-detail">
+                                        <span class="place-name">Daraganj Railway Station</span>
+                                        <span class="distance">15 km</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="transport-item">
+                                <div class="transport-icon">
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <div class="transport-info">
+                                    <h6>Airport</h6>
+                                    <div class="transport-detail">
+                                        <span class="place-name">Prayagraj Airport (IXD)</span>
+                                        <span class="distance">30.9 km</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="transport-item">
+                                <div class="transport-icon">
+                                    <i class="fas fa-bus"></i>
+                                </div>
+                                <div class="transport-info">
+                                    <h6>Bus Terminal</h6>
+                                    <div class="transport-detail">
+                                        <span class="place-name">ISBT Prayagraj</span>
+                                        <span class="distance">18.7 km</span>
                                     </div>
                                 </div>
                             </div>
@@ -432,63 +635,170 @@
         </div>
     </section>
 
-
-
-
-    <section class="copyright">
+    <!-- Modern Contact Section -->
+    <section class="modern-contact-section py-5" id="Contact">
         <div class="container">
-            <div class="row" style="display: flex; align-items: center;">
-                <div class="col-md-3">
-                    <div class="footer-social">
-                        <ul>
-                            <li><a href="https://www.facebook.com/uit.allahabad/" target="_blank"><i
-                  class="fa fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/theugiindia/" target="_blank"><i class="fa fa-instagram"
-                  aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/school/united-institute-of-technology-allahabad/" target="_blank"><i
-                  class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.youtube.com/@theugiindia" target="_blank"><i class="fa fa-youtube"
-                  aria-hidden="true"></i></a></li>
-                        </ul>
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions? We're here to help</p>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-grid">
+                        <!-- Contact Person 1 -->
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h5 class="contact-name">Dr. Anubhav Kumar Prasad</h5>
+                            <p class="contact-role">Conference Coordinator</p>
+                            <div class="contact-details">
+                                <a href="tel:+918181934608" class="contact-link">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 81819 34608</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Person 2 -->
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h5 class="contact-name">Dr. Amit Kumar Tiwari</h5>
+                            <p class="contact-role">Technical Chair</p>
+                            <div class="contact-details">
+                                <a href="tel:+919369920134" class="contact-link">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 93699 20134</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Person 3 -->
+                        <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="contact-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h5 class="contact-name">Mr. Praful Pandey</h5>
+                            <p class="contact-role">Organizing Secretary</p>
+                            <div class="contact-details">
+                                <a href="tel:+919451181487" class="contact-link">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 94511 81487</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="clearfix"></div>
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <div class="logo-f">
-                        <a target="_blank" href="https://www.united.ac.in/">
-
-            <img src="assets/images/logo22.png">
-
-                        </a>
+                    <!-- Email Contact -->
+                    <div class="email-contact-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="email-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="email-content">
+                            <h6>Email Inquiries</h6>
+                            <a href="mailto:info@icaite2025.com" class="email-link">info@icaite2025.com</a>
+                        </div>
                     </div>
-
-
                 </div>
-                <div class="col-md-3">
-                    <div class="logo-f">
-                        <a target="_blank" href="https://internationalconferencealerts.com">
-
-            <img src="assets/images/INTERNATIONAL-CONFERENCE-ALERTS.png">
-
-          </a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-md-3">
-                    <p>Copyright ©  United Institute of Technology.
-                    </br>All Rights Reserved</p>
-                </div>
-
             </div>
         </div>
     </section>
+
+
+
+
+    <!-- Modern Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="assets/images/logo22.png" alt="UIT Logo" class="footer-logo mb-3">
+                        <h5 class="text-white mb-3">ICAITE 2025</h5>
+                        <p class="text-light mb-4">
+                            International Conference on Artificial Intelligence in Today's Era. 
+                            Join us for cutting-edge research and innovation in AI.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/uit.allahabad/" target="_blank" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/theugiindia/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/school/united-institute-of-technology-allahabad/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@theugiindia" target="_blank" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="text-white mb-3">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#About">About Conference</a></li>
+                        <li><a href="#track">Technical Tracks</a></li>
+                        <li><a href="#date">Important Dates</a></li>
+                        <li><a href="#paper">Paper Submission</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="text-white mb-3">Committee</h6>
+                    <ul class="footer-links">
+                        <li><a href="commitee.html#1">Patrons & Chairs</a></li>
+                        <li><a href="commitee.html#2">Advisory Committee</a></li>
+                        <li><a href="commitee.html#3">Technical Committee</a></li>
+                        <li><a href="commitee.html#4">Organising Committee</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h6 class="text-white mb-3">Contact Information</h6>
+                    <div class="contact-info">
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                            <span class="text-light">United Institute of Technology<br>Naini, Prayagraj 211008, U.P., India</span>
+                        </div>
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-envelope text-primary me-2"></i>
+                            <span class="text-light">info@icaite2025.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone text-primary me-2"></i>
+                            <span class="text-light">+91 81819 34608</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-light mb-0">
+                        © 2025 United Institute of Technology. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="sponsor-logos">
+                        <span class="text-light me-3">Sponsored by:</span>
+                        <a href="https://www.elsevier.com/en-in" target="_blank" class="sponsor-link">
+                            <img src="assets/images/ellogo.png" alt="Elsevier" class="sponsor-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -566,90 +876,282 @@
 
 
 
+    <!-- JavaScript Libraries -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/slick.min.js" language="javascript"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/slick.min.js" language="javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
-        $(document).ready(function() {
-            $('.testi_slider').slick({
-                infinite: true,
-                slidesToShow: 3,
-                nav: false,
-                dots: false,
-                autoplay: true,
-                slidesToScroll: 1,
-
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            dots: false
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                ]
-            });
-
-            $('.doclist_slider').slick({
-                infinite: true,
-                slidesToShow: 5,
-                nav: false,
-                dots: false,
-                autoplay: true,
-                slidesToScroll: 1,
-
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 5,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            dots: false
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                ]
-            });
-
-
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
         });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $(".openfooter").click(function() {
-                $(".showfooter").toggleClass("main");
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             });
+        });
+
+        // Floating Navigation Effects
+        const floatingNav = document.getElementById('floatingNav');
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        // Scroll effect for floating nav
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                floatingNav.classList.add('scrolled');
+            } else {
+                floatingNav.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const isActive = mobileToggle.classList.toggle('active');
+                navMenu.classList.toggle('active', isActive);
+                // update aria
+                mobileToggle.setAttribute('aria-expanded', String(isActive));
+            });
+        }
+
+        // Close mobile menu when clicking a non-dropdown link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                // If the link is a dropdown toggle, toggle its submenu instead of closing menu
+                if (this.classList.contains('dropdown-toggle')) {
+                    e.preventDefault();
+                    const parent = this.closest('.dropdown');
+                    const content = parent.querySelector('.dropdown-content');
+                    const isActive = content.classList.toggle('active');
+                    this.setAttribute('aria-expanded', String(isActive));
+                    return;
+                }
+
+                if (window.innerWidth <= 768) {
+                    mobileToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // Close mobile menu when clicking outside (single listener)
+        document.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) {
+                // ignore clicks inside navMenu or on the toggle
+                if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                    mobileToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                    // also collapse any open dropdowns
+                    document.querySelectorAll('.dropdown-content.active').forEach(dc => dc.classList.remove('active'));
+                }
+            }
+        });
+
+        // Dropdown functionality for desktop: allow click to toggle as well as hover
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+            const dropdownContent = dropdown.querySelector('.dropdown-content');
+
+            // toggle on click (works for both desktop and mobile)
+            dropdownToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const isActive = dropdownContent.classList.toggle('active');
+                dropdownToggle.setAttribute('aria-expanded', String(isActive));
+            });
+        });
+
+        // Add hover effects for desktop
+        if (window.innerWidth > 768) {
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.classList.add('hover');
+                    const dd = this.querySelector('.dropdown-content');
+                    if (dd) dd.classList.add('active');
+                });
+                item.addEventListener('mouseleave', function() {
+                    this.classList.remove('hover');
+                    const dd = this.querySelector('.dropdown-content');
+                    if (dd) dd.classList.remove('active');
+                });
+            });
+        }
+
+        // Countdown Timer
+        function updateCountdown() {
+            const conferenceDate = new Date('2025-10-15T00:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = conferenceDate - now;
+
+            // Update old countdown if exists
+            if (document.getElementById('days')) {
+                if (distance < 0) {
+                    document.getElementById('days').innerHTML = '00';
+                    document.getElementById('hours').innerHTML = '00';
+                    document.getElementById('minutes').innerHTML = '00';
+                    document.getElementById('seconds').innerHTML = '00';
+                } else {
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
+                    document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
+                    document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
+                    document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+                }
+            }
+            
+            // Update new hero countdown if exists
+            if (document.getElementById('days-hero')) {
+                if (distance < 0) {
+                    document.getElementById('days-hero').innerHTML = '00';
+                    document.getElementById('hours-hero').innerHTML = '00';
+                    document.getElementById('minutes-hero').innerHTML = '00';
+                    document.getElementById('seconds-hero').innerHTML = '00';
+                } else {
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById('days-hero').innerHTML = days.toString().padStart(2, '0');
+                    document.getElementById('hours-hero').innerHTML = hours.toString().padStart(2, '0');
+                    document.getElementById('minutes-hero').innerHTML = minutes.toString().padStart(2, '0');
+                    document.getElementById('seconds-hero').innerHTML = seconds.toString().padStart(2, '0');
+                }
+            }
+        }
+
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
+        
+        // Animated Counter for Stats
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 100;
+            const duration = 2000;
+            const stepTime = duration / 100;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = Math.floor(target);
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current);
+                }
+            }, stepTime);
+        }
+        
+        // Initialize stats counter when visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const target = parseInt(stat.getAttribute('data-count'));
+                        if (target && stat.textContent === '0') {
+                            animateCounter(stat, target);
+                        }
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        // Observe hero stats
+        const heroStats = document.querySelector('.hero-stats-ribbon');
+        if (heroStats) {
+            statsObserver.observe(heroStats);
+        }
+        
+        // Create simple particle effect
+        function createParticles() {
+            const particleContainer = document.getElementById('particles');
+            if (!particleContainer) return;
+            
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.style.position = 'absolute';
+                particle.style.width = Math.random() * 4 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.background = 'rgba(96, 165, 250, 0.5)';
+                particle.style.borderRadius = '50%';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animation = `floatParticle ${Math.random() * 10 + 10}s linear infinite`;
+                particle.style.animationDelay = Math.random() * 5 + 's';
+                particleContainer.appendChild(particle);
+            }
+        }
+        
+        // Add particle animation CSS
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes floatParticle {
+                0% {
+                    transform: translateY(0) translateX(0);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 0.5;
+                }
+                90% {
+                    opacity: 0.5;
+                }
+                100% {
+                    transform: translateY(-100vh) translateX(${Math.random() * 100 - 50}px);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Initialize particles on load
+        window.addEventListener('load', createParticles);
+
+        // Add loading animation
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
         });
     </script>
 
